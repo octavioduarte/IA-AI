@@ -1,0 +1,5 @@
+### Early Stopping
+
+Early Stopping é uma estratégia crucial de validação de modelos que lidam com um grande volume de dados. Ela consiste em monitorar o desempenho do modelo durante a validação. Se não houver melhora significativa ao longo desse processo, o treinamento é interrompido para evitar desperdício de tempo e recursos. Em seguida, é possível otimizar os hiperparâmetros ou o conjunto de dados utilizado. Essa abordagem é especialmente eficaz em modelos que lidam com grandes volumes de dados, permitindo identificar ineficiências de forma antecipada, sem a necessidade de aguardar um longo processo de testes.
+
+O Early Stopping é uma ferramenta fundamental para prevenir o overfitting (overfitting = quando o modelo memoriza as respostas dos dados de treino). Em um cenário onde o treinamento é configurado para 20 épocas, por exemplo, o Early Stopping pode ser aplicado para interromper o treinamento caso não haja melhora no desempenho entre os intervalos de verificação. Isso ajuda a evitar que o modelo se adapte excessivamente aos dados de treino, garantindo uma generalização melhor para novos dados.   
