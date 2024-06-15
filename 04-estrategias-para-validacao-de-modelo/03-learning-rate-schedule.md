@@ -1,0 +1,5 @@
+### Learning Rate Schedule
+
+Learning Rate Schedule é uma técnica que utilizamos no processo de validação onde ajustamos o "nível de exigência" do modelo, exemplo:
+
+- Imagine que você configurou o seu modelo com o early stopping, ou seja, definiu que o treinamento deve parar se não houver melhoria a cada X épocas. Durante o treinamento, é normal que o modelo apresente variações naturais, não significando necessariamente regressão ou progresso constante. Essas oscilações fazem parte do processo de aprendizado. Por exemplo, você espera diferentes níveis de desempenho do seu aluno ao longo do treinamento em uma autoescola, certo? No início, você pode exigir passos mais simples, como ligar o carro em ponto morto, pisar na embreagem, engatar a marcha e puxar o freio. Mais tarde, talvez espere que ele consiga dirigir na rua, sendo "ok" se o carro morrer no processo. Assim como neste exemplo, ajustamos o learning rate schedule para adequar as expectativas do modelo conforme ele avança nas épocas de treinamento. Importante entender que isso não siginifica necessariamente reduzir as expectativas, mas sim ajustá-la conforme cada época.
