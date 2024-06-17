@@ -1,0 +1,3 @@
+### Custom Callbacks
+
+Nos outros arquivos deste diretório, vimos abordagens para utilizar no modelo, que têm seus propósitos pré-definidos e resolvem nosso problema na maioria dos casos. No entanto, se surgir a necessidade de um comportamento específico durante o treinamento do modelo, é possível adicionar callbacks personalizados. Eles podem executar ações específicas para eventos determinados durante o desenvolvimento.
