@@ -26,3 +26,17 @@ Algumas instruções:
 #### Comparar os resultados com auxílio visual.
 
 Se  plotarmos as predições dos conjuntos de treino e teste em um gráfico de linhas para efeitos comparativos, é possível identificar eventuais discrepâncias de maneira mais ágil. Uma grande diferença entre os resultados de ambos os conjuntos pode indicar overfitting.
+
+
+#### Caso o modelo já esteja com overfitting, como tratar? 
+
+
+- Colete mais dados para treino.
+  
+- Aplique [early stopping](https://github.com/octavioduarte/IA-AI/blob/master/04-estrategias-para-validacao-durante-o-treinamento-do-modelo/01-early-stopping.md) durante o treino.
+  
+- Reduza a complexidade das features (feature selection)
+
+- Aplique data argumentation
+
+- Utilize técnicas de regularização (L1, L2, dropout)
