@@ -7,7 +7,12 @@ A validação durante o treinamento do modelo é essencial para identificar pote
 
 Nestes casos **opte por extrair dados do conjunto de teste**, quanto mais dados dedicados o para o treino (tender a ser) melhor o resultado do modelo.
 
+> Podemos utilizar os mesmos dados para validação e teste?
+
+- Sim, podemos usar os mesmos dados para validação e teste. Esses dados não foram vistos durante o treinamento, então o modelo não deve gerar respostas enviesadas. No entanto, sempre que possível, é ideal usar conjuntos diferentes para treinamento e validação, dependendo do volume de dados disponíveis.
+
 Então para concluir:
 
 - Conjunto de testes: Utilizo depois do treinamento e validação do modelo.
 - Conjunto de validação: Utilizo em paralelo ao treinamento.
+- Conjunto de validação e testes podem ser o mesmos?: Sim, mas sempre priorize por separá-los.
